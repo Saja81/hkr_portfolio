@@ -79,3 +79,26 @@ h2 {
 #card.flipped #cardBack {
   transform: rotateY(0deg);
 }
+
+#readMore a {
+  color: silver;
+  text-decoration: none;
+}
+
+#readMore {
+  list-style-type: none;
+}
+
+/* Styling för flipButtonContainer */
+.flipButtonContainer {
+  display: flex;
+  justify-content: flex-end; /* Placera elementet längst till höger */
+  align-items: flex-end; /* Placera elementet längst ned */
+  height: 100%;
+  margin-top: 50px;
+  /* Hitta bättre lösning för denna */
+}
+
+.flipButton {
+  margin: 0; /* Tar bort eventuell extra marginal */
+}
