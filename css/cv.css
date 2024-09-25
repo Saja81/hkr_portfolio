@@ -1,0 +1,46 @@
+.mainCv {
+  position: relative;
+  width: 100%;
+  transition: transform 0.6s; /* Gör övergången smidig */
+  transform-style: preserve-3d; /* Bevara 3D-effekten */
+}
+
+#mainCvP1,
+#mainCvP2 {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+  background-color: #f6f5f3;
+}
+
+#profilePic {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  /* margin: 10px 10px 10px 10px; */
+}
+
+#asideCv {
+  flex: 1; /* Tar upp 1 del av tillgängligt utrymme */
+  background-color: #2c3e50;
+  color: #f6f5f3;
+  padding: 20px;
+}
+
+#articleCv {
+  flex: 3; /* Tar upp 3 delar av tillgängligt utrymme */
+}
+
+#headerCv {
+  background-color: #2c3e50;
+  color: #f6f5f3;
+  margin: 10px;
+  padding: 20px;
+}
+
+#containerCv {
+  margin-left: 10px;
+  color: #606166;
+  padding: 20px;
+}

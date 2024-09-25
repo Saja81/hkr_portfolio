@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="unsafe-url" />
+    <title>Portfolio Sandra Jakobsson</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <nav>
+        <ul>
+          <li><a href=""></a>Hem</li>
+          <li><a href=""></a>CV</li>
+          <li><a href=""></a>Personligt Brev</li>
+          <li><a href=""></a>Testsida</li>
+        </ul>
+      </nav>
+    </header> -->
+    <main id="mainCard">
+      <div id="card">
+        <article id="cardFront">
+          <div class="container">
+            <img src="img/logo.png" width="70" id="me" alt="Bild på mig" />
+            <h1>Sandra Jakobsson</h1>
+            <hr id="hrMain" />
+            <h2>Frontendutvecklare</h2>
+            <p class="flipButton">Vänd...</p>
+          </div>
+        </article>
+        <article id="cardBack">
+          <div class="container">
+            <div class="flexDiv">
+              <img
+                src="img/logo.png"
+                width="20"
+                height="20"
+                id="me"
+                alt="Bild på mig"
+              />
+              <h1>Sandra Jakobsson</h1>
+            </div>
+            <hr />
+            <h2>Frontendutvecklare | 0739-XXXXXX</h2>
+            <hr />
+            <p>Mail</p>
+            <hr />
+            <p>LinkedIn</p>
+            <hr />
+            <p>Github</p>
+            <hr />
+            <a href="cv.html"><p>Läs mer om mig</p></a>
+            <p class="flipButton">Vänd...</p>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <!-- <footer>
+      <p>&copy; Sandra Jakobsson 2024</p>
+    </footer> -->
+  </body>
+</html>
+
+<script>
+  const card = document.querySelector("#card");
+  const flipButtons = document.querySelectorAll(".flipButton"); // Välj alla knappar för att vända kortet
+
+  flipButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      card.classList.toggle("flipped"); // Vänd kortet när någon av knapparna klickas
+    });
+  });
+</script>

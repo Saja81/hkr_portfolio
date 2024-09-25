@@ -1,0 +1,22 @@
+@import url("card.css");
+@import url("cv.css");
+@import url("nav.css");
+
+/* Nollställ marginaler */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Fira Sans", "Source Sans Pro", Helvetica, Arial, sans-serif;
+  background-color: #bcc6cc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  color: #44444c;
+  background: #b68f64;
+}
+
+/* Main container */
