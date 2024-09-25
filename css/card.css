@@ -82,11 +82,15 @@ h2 {
 
 #readMore a {
   color: silver;
-  text-decoration: none;
 }
 
 #readMore {
   list-style-type: none;
+  transition: transform 0.3s ease;
+}
+
+#readMore:hover {
+  transform: scale(1.1);
 }
 
 /* Styling för flipButtonContainer */
@@ -99,6 +103,18 @@ h2 {
   /* Hitta bättre lösning för denna */
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Normalt läge */
+  }
+  50% {
+    transform: scale(1.1); /* Förstorar elementet något */
+  }
+  100% {
+    transform: scale(1); /* Återgår till normalt läge */
+  }
+}
+
 .flipButton {
-  margin: 0; /* Tar bort eventuell extra marginal */
+  animation: pulse 1.5s infinite; /* Använd animationen */
 }

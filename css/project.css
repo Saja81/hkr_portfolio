@@ -1,0 +1,15 @@
+#mainProject {
+  display: flex;
+}
+
+#articleProject {
+  flex: 3;
+}
+
+#asideProject {
+  flex: 3;
+}
+
+ul {
+  list-style: none;
+}
