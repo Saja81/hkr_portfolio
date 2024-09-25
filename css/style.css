@@ -1,6 +1,7 @@
 @import url("card.css");
 @import url("cv.css");
 @import url("nav.css");
+@import url("footer.css");
 
 /* Nollställ marginaler */
 html,
@@ -12,11 +13,5 @@ body {
 }
 
 /* Footer */
-footer {
-  text-align: center;
-  padding: 10px 0;
-  color: #44444c;
-  background: #b68f64;
-}
 
 /* Main container */
